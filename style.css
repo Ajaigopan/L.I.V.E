@@ -1,0 +1,90 @@
+ 
+ /* <div class="banner">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</div>
+
+
+
+
+
+ <button type="button" class="btn btn-danger"
+         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;margin-left: 900px;">
+   find out more
+ </button>
+
+
+*/  
+
+.img{
+  position: relative;
+  width: 800px;
+  height: 500px;
+ 
+}
+.imgage__img{
+  display: block;
+  width: 100%;
+  height: 100%;
+} 
+.image__overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+   height: 100%;
+   background: red ;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   transition: opacity o.25s;
+}
+.image__overlay:hover{
+  opacity: 3;
+}
+#imag .col{
+  display: flex;
+ 
+  width: 2000px;
+}
+#down{
+  height: 500px;
+  position: relative;
+  background-color: gray;
+}
+#down .load{
+  position: absolute;
+  display: flex;
+  margin-left: 800px;
+  margin-top: 250px;
+  flex-direction: column;
+}
+#form .fam{
+  margin-left:800px ;
+  width: 550px;
+}
